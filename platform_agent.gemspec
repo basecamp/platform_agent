@@ -3,7 +3,7 @@ Gem::Specification.new do |s|
   s.version  = '1.0.0'
   s.authors  = 'David Heinemeier Hansson'
   s.email    = 'david@basecamp.com'
-  s.summary  = 'Parse user agent to discern the common platforms that UIs are tailored for.'
+  s.summary  = 'Parse user agent to deduce the platform.'
   s.homepage = 'https://github.com/basecamp/platform_agent'
   s.license  = 'MIT'
 
