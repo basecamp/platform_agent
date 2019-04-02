@@ -7,7 +7,7 @@ Parse user agent to discern the common platforms that UIs are tailored for. Expe
 ```ruby
 class ApplicationPlatform < PlatformAgent
   def ios_app?
-    match?(/BC3 iOS/)
+    match? /BC3 iOS/
   end
 
   def android_app?
@@ -51,4 +51,4 @@ This library is an extraction from Basecamp that's been sufficient in almost una
 
 ## License
 
-Special Agent is released under the [MIT License](https://opensource.org/licenses/MIT).
+Platform Agent is released under the [MIT License](https://opensource.org/licenses/MIT).
