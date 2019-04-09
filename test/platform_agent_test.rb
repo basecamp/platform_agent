@@ -5,7 +5,7 @@ require 'platform_agent'
 
 class BasecampAgent < PlatformAgent
   def ios_app?
-    match?(/BC3 iOS/)
+    match? /BC3 iOS/
   end
 
   def android_app?
@@ -18,7 +18,7 @@ class BasecampAgent < PlatformAgent
 
   def windows_app?
     match?(/Electron/) && match?(/basecamp3/) && match?(/Windows/)
-  end  
+  end
 end
 
 class PlatformAgentTest < ActiveSupport::TestCase
