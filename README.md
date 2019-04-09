@@ -20,7 +20,7 @@ class ApplicationPlatform < PlatformAgent
 
   def windows_app?
     match?(/Electron/) && match?(/basecamp3/) && match?(/Windows/)
-  end  
+  end
 end
 
 module SetPlatform
@@ -47,7 +47,7 @@ end
 
 ## Maintenance Expectations
 
-This library is an extraction from Basecamp that's been sufficient in almost unaltered form for years. While contributions are always welcome, do not expect a lot of feature evolution beyond the basics. 
+This library is an extraction from Basecamp that's been sufficient in almost unaltered form for years. While contributions are always welcome, do not expect a lot of feature evolution beyond the basics.
 
 ## License
 

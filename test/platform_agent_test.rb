@@ -18,7 +18,7 @@ class BasecampAgent < PlatformAgent
 
   def windows_app?
     match?(/Electron/) && match?(/basecamp3/) && match?(/Windows/)
-  end  
+  end
 end
 
 class PlatformAgentTest < ActiveSupport::TestCase
