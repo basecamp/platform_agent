@@ -5,7 +5,7 @@ require 'platform_agent'
 
 class BasecampAgent < PlatformAgent
   def ios_app?
-    match?(/BC3 iOS/)
+    match? /BC3 iOS/
   end
 
   def android_app?
