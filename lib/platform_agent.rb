@@ -110,7 +110,7 @@ class PlatformAgent
     attr_accessor :user_agent_string
 
     def match?(pattern)
-      true if user_agent_string.to_s.match(pattern)
+      user_agent_string.to_s.match?(pattern)
     end
 
     def user_agent
