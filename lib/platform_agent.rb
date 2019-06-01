@@ -5,7 +5,7 @@ class PlatformAgent
     self.user_agent_string = user_agent_string
   end
 
-  delegate :browser, :version, :product, to: :user_agent
+  delegate :browser, :version, :product, :os, to: :user_agent
 
   def desktop?
     !mobile?
@@ -89,7 +89,7 @@ class PlatformAgent
 
   def app_version
     # App user-agent string is parsed into two separate UserAgent instances, it's the last one that contains the right version
-    user_agent.last.version if native?
+    user_agent.last.version if native_app?
   end
 
   def to_s
