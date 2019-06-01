@@ -89,7 +89,7 @@ class PlatformAgent
 
   def app_version
     # App user-agent string is parsed into two separate UserAgent instances, it's the last one that contains the right version
-    user_agent.last.version if native?
+    user_agent.last.version if native_app?
   end
 
   def to_s
