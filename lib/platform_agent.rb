@@ -5,7 +5,7 @@ class PlatformAgent
     self.user_agent_string = user_agent_string
   end
 
-  delegate :browser, :version, :product, to: :user_agent
+  delegate :browser, :version, :product, :os, to: :user_agent
 
   def desktop?
     !mobile?
