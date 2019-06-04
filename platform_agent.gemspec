@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name     = 'platform_agent'
-  s.version  = '1.0.0'
+  s.version  = '1.0.1'
   s.authors  = 'David Heinemeier Hansson'
   s.email    = 'david@basecamp.com'
   s.summary  = 'Parse user agent to deduce the platform.'
