@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    platform_agent (1.0.0)
+    platform_agent (1.0.1)
       activesupport (>= 5.2.0)
       useragent (~> 0.16.3)
 
@@ -22,7 +22,7 @@ GEM
     minitest (5.11.3)
     rake (12.3.1)
     thread_safe (0.3.6)
-    tzinfo (1.2.5)
+    tzinfo (1.2.10)
       thread_safe (~> 0.1)
     useragent (0.16.10)
 
